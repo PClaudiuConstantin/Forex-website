@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 :root{
-    --primary-color: #047aed;
+    --primary-color: #930631;
     --secondary-color: #1c3fa8; 
-    --dark-color: #002240;
+    --dark-color: black;
     --light-color: #f4f4f4;
     --succes-color: #5cb85c; 
     --error-color: #d9534f; 
@@ -178,6 +178,10 @@ code, pre{
 .cli .grid > *:first-child{
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
+}
+
+.cli img{
+    height: 300px;
 }
 
 /*Cloud*/
@@ -437,6 +441,10 @@ code, pre{
 
 /*Languages*/
 
+.languages img{
+    height: 10vh;
+}
+
 .languages .flex{
     flex-wrap: wrap;
 }
@@ -461,7 +469,7 @@ code, pre{
 }
 
 .features-sub-head img{
-    width: 250px;
+    width: 300px;
     justify-self: flex-end;
 }
 
